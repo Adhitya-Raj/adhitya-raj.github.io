@@ -1,0 +1,54 @@
+html,body {
+	max-width: 100vw;
+	height: 100vh;
+	font-family: 'Montserrat', sans-serif;
+	background-color: black;
+	color: whitesmoke;
+}
+
+.social li {
+	margin: auto 20px;
+	display: inline;
+	font-optical-sizing: auto;	
+}
+
+.social li a {
+	color: whitesmoke;
+	vertical-align: bottom;
+}
+
+.social li .im {
+	font-size: 3rem;
+}
+
+.full-body{
+	display: flex;
+	width: 100%;
+	min-height: 100%;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.body-container{
+	width: auto;
+	height: auto;
+	display: inline-block;
+	text-align: center;
+}
+
+.title{
+	font-family: 'Raleway', sans-serif;
+	font-size: 5rem;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+
+.p-2 {
+	padding: .25rem inherit;
+}
+
+@media only screen and (min-width: 750px){
+	.title{
+		font-size: 10rem;
+	}
+} 
